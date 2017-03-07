@@ -28,5 +28,5 @@ JNIEXPORT jstring JNICALL Java_com_younglee_retrofittest_safe_Tag_getTag(JNIEnv*
 	(*env)->ReleaseStringUTFChars(env, jstr, str);
 
 	return (*env)->NewStringUTF(env,
-			"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCAg3Ag75M4ZBcOjnjFKBAp+FuLTHI8h6kh0/rrh7qfjBJvUrm0wTM7qFT3XMfYZc00PdIH1e0Jjcmp2ayEtk2rlxHUHJTtL8loNMxsLRrqEVhc6q3Co8+YOytanckqBHwSqq0Vk6TfKoXwDZfrWSbrRUpLrepGoXdOl6gjoOQmYQIDAQAB");
+			"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCigwlB4DdiofJiedeeCNjPcFAmlq4wH7r9qt9dGEcvQJXRBrc0ce3M2PM7dc/Da3ZY7nRUrSCqbAjpnNsXqR8ehUOpCDr/cCczuBwnLQ1Iaxqvj59IY7IoXaQedH4/81lnVRFkDutphfC+CsA9oimxPenzPB7VG5D9yAv18BLXHwIDAQAB");
 }
