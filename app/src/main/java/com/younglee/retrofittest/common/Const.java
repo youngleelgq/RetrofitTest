@@ -22,7 +22,7 @@ public class Const {
     }
 
     interface Ip {
-        String API_MAC_PRO = "http://222.173.121.30:40200";
+        String API_MAC_PRO = "PROD";
         String API_MAC_DEV = "http://103.226.132.194:9210";
     }
 
